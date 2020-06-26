@@ -1,0 +1,28 @@
+list	1,14	 DOWN
+sets	4,4	 UP-RIGHT
+graph	4,13	 LEFT
+bird	11,11	 UP
+cars	13,10	 UP-RIGHT
+tree	6,13	 LEFT
+lines	6,12	 LEFT
+boat	1,1	 DOWN
+food	6,3	 UP
+programming	11,1	 UP-RIGHT
+design	8,4	 DOWN-RIGHT
+patterns	4,11	 DOWN-LEFT
+jumble	3,5	 DOWN
+-------------------------
+B A D S I G S V Q U G Z H L 
+O R A Q M T H J Z N S P Y I 
+A K D P J G H B I F T F G S 
+T K O S U G I M H P P R G T 
+B A O V M B M T V A J A V J 
+G H F B B A R S T N I L T U 
+P Z T I L C H T Z I A E E I 
+O L K D E P E M F K D C W A 
+U P O R E R Y G Z W R W L Q 
+K R Q W N S A Z Z D I J S T 
+P P A S F P I R C S B R A B 
+Y E E Z L E Y G H T A D J Q 
+O E Y Z L W A J N C W B K C 
+E H D T F X I A F E C G X F 
