@@ -1,0 +1,5 @@
+LAB XI
+
+XI.1
+a) Para cumprir os requisitos apresentados, poderemos recorrer ao padrão Strategy, uma vez que existe um conjunto de algoritmos (de ordenação, neste caso) diferentes, e é dada a possibilidade de escolha ao utilizador/cliente.
+
