@@ -1,0 +1,10 @@
+Map
+Add vasco 10 20
+Map
+Lookup
+vasco
+Remove
+vasco
+Map
+Clear
+Quit

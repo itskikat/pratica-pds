@@ -1,0 +1,19 @@
+add Mariana 1 4
+lookup a
+add Lara 3 4
+add Clara 7 8
+lookup x
+list
+add Antonio
+add Abel 7 8
+remove Abel
+remove bad
+lookup noexist
+map
+clear
+list
+add Able 1 2
+add Kim 3 4
+add Luis 4 5
+list
+quit
