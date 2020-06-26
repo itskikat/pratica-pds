@@ -1,0 +1,22 @@
+Análise da implementação da classe java.util.Calendar
+- É uma classe que implementa o Padrão Abstract Factory + Builder
+
+A classe contém dois construtores, ambos Protected - ou seja, não podem ser acedidos fora da package:
+- Calendar() 
+    - Vai construir um objeto do tipo Calendar com a default time zone
+- Calendar(TimeZone zone, Locale aLocale)
+    - Vai construir um objeto do tipo Calendar com uma time zone e local especificados
+
+Como os construtores são Protected, não podem ser instanciados diretamente. Assim, para fazer a instanciação de um objeto, temos 4 métodos a que podemos recorrer:
+- getInstance()
+    - Vai devolver um calendário com o time zone default e local
+- getInstance(TimeZone zone)
+    - Vai devolver um calendário com uma certa time zone e local-default
+- getInstance(Locale aLocale)
+    - Vai devolver um calendário com time zone default e local especifico
+- getInstance(TimeZone zone, Locale aLocale)
+    - Vai devolver um calendário com um certo local e time zone
+Em cada método é feita uma chama à função ‘createCalendar(TimeZone zone, Locale aLocale)’ que vai criar e devolver um objeto do tipo Calendar.
+De acordo com certos parâmetros, podemos criar Calendars de diversos tipos (Buddhist, Gregorian, Japanese) -> funciona como uma Fábrica.
+
+É possível também identificar o padrão Builder no código, uma vez que podemos criar um objeto do tipo Calendar especificando diversos parâmetros de forma individual. 
