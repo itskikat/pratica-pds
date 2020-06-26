@@ -1,0 +1,42 @@
+<configuration> 
+    <board>
+        <rows>8</rows>
+        <collumns>10</collumns> 
+    </board>
+    <ships> 
+        <ship>
+            <name>Aircraft carrier</name> 
+            <number>1</number> 
+            <size>5</size>
+        </ship>
+        <ship>
+            <name>Battleship</name> 
+            <number>1</number> 
+            <size>4</size>
+        </ship>
+        <ship>
+            <name>Submarine</name> 
+            <number>1</number> 
+            <size>3</size>
+        </ship>
+        <ship>
+            <name>Destroyer</name> 
+            <number>1</number> 
+            <size>2</size>
+        </ship>
+        <ship>
+            <name>Patrol boat</name> 
+            <number>2</number> 
+            <size>1</size>
+        </ship> 
+        <complex-ship>
+            <name>SuperShip</name> 
+            <number>1</number> 
+            <matrix>
+                <row>0100</row> 
+                <row>1111</row> 
+                <row>0100</row>
+            </matrix> 
+        </complex-ship>
+    </ships> 
+</configuration>
